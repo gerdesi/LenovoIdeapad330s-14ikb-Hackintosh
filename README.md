@@ -44,4 +44,22 @@ First, connect your 8GB (or more) USB drive to your mac.
 Open Diskutil and format it to Mac OS Journaled and name it "install_osx"
 
 Download macOS Mojave from the Mac App Store, after the download process has finished, create the USB installer by opening terminal and writing the following command:
+
 ``` sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume  /Volumes/install_osx --nointeraction ```
+
+Thats it for part 1!
+
+## 2. Installing Clover
+Download the latest version of clover bootloader from here.<br>
+Open Clover bootloader installer, click on continue, agree, continue and when you reach the screen "Installtion Type", click on "Change Install Location".<br>
+Choose your USB disk which should be labelled as "install_osx" as the install location.<br>
+Next click on "Customize". Make surethe following options are selected:<br>
+-Clover for UEFI booting only<br>
+-Install Clover in the ESP<br>
+-Themes<br>
+-UEFI Drivers (Under Drivers, uncheck SMCHelper-64, as we will be using VirtualSMC)<br>
+**Click Install**
+
+## 3. Copying relevant drivers and kext files (Go to Releases to get the kexts etc)
+Copy the files from the "drivers64UEFI" (NvmExpressDxe-64 needed only for NVMe drives) and "kexts" folder to your USB where you have installed clover.<br>
+Replace the config.plist with the config.plist from my folder.<br>
