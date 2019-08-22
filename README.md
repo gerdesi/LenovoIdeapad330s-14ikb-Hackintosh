@@ -117,5 +117,10 @@ Use Hackintool to fix hibernation and for USB port patching. (Guides in the fold
 - Thanks to [muchmore](https://www.tonymacx86.com/members/698774/) for his battery patch and [Whab](https://www.tonymacx86.com/members/2096263/) for some suggestions in the 15IKB thread on tonymacx86.
 - Thanks to [Sniki](https://www.tonymacx86.com/members/1501160/) for his V330 guide.
 
+## Changelog:
+### 22/8/2019: Initial Release
+- Guide is completed.
+- Files have been added.
+
 ## Help me out:
 - [PayPal](https://www.paypal.com/paypalme2/quiiddev)
