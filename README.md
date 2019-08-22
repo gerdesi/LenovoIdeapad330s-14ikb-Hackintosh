@@ -14,7 +14,7 @@ Proceed at your own risk, I shall not take responsibility for any damages caused
 - CPU: i3-8130U @ 2.21GHz
 - 4GB RAM
 - Intel UHD 620
-- Display
+- Display: HD 1366 x 768
 - 128 GB SSD
 - WiFi and Bluetooth card: Lenovo Branded Broadcom BCM94352Z
 
@@ -39,4 +39,8 @@ Proceed at your own risk, I shall not take responsibility for any damages caused
 - Disable Virtualization
 
 ## 1. Make Install USB (You will need a mac for this | Don't have a Mac? [Look at this tutorial](MacVM.md)
+First, connect your 8GB (or more) USB drive to your mac.
+Open Diskutil and format it to Mac OS Journaled and name it "install_osx"
 
+Download macOS Mojave from the Mac App Store, after the download process has finished, create the USB installer by opening terminal and writing the following command:
+´´´ sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume  /Volumes/install_osx --nointeraction ´´´
