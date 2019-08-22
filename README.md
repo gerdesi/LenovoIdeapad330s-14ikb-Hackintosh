@@ -39,7 +39,7 @@ Proceed at your own risk, I shall not take responsibility for any damages caused
 - Disable secure boot and unload optimized defaults for windows 10.
 - Disable Virtualization
 
-## 1. Make Install USB (You will need a mac for this | Don't have a Mac? [Look at this tutorial](MacVM.md)
+## 1. Make Install USB (You will need a mac for this | Don't have a Mac? [Look at this tutorial](MacVM.md))
 First, connect your 8GB (or more) USB drive to your mac.
 
 Open Diskutil and format it to Mac OS Journaled and name it "install_osx"
@@ -51,14 +51,14 @@ Download macOS Mojave from the Mac App Store, after the download process has fin
 Thats it for part 1!
 
 ## 2. Installing Clover
-Download the latest version of clover bootloader from here.<br>
+Download the latest version of clover bootloader from [here](https://sourceforge.net/projects/cloverefiboot/).<br>
 Open Clover bootloader installer, click on continue, agree, continue and when you reach the screen "Installtion Type", click on "Change Install Location".<br>
 Choose your USB disk which should be labelled as "install_osx" as the install location.<br>
-Next click on "Customize". Make surethe following options are selected:<br>
--Clover for UEFI booting only<br>
--Install Clover in the ESP<br>
--Themes<br>
--UEFI Drivers (Under Drivers, uncheck SMCHelper-64, as we will be using VirtualSMC)<br>
+Next click on "Customize". Make sure the following options are selected:<br>
+- Clover for UEFI booting only
+- Install Clover in the ESP
+- Themes
+- UEFI Drivers (Under Drivers, uncheck SMCHelper-64, as we will be using VirtualSMC)
 **Click Install**
 
 ## 3. Copying relevant drivers and kext files (Go to Releases to get the kexts etc)
