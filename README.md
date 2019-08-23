@@ -1,5 +1,5 @@
 # Lenovo Ideapad 330s-14IKB Hackintosh
-Full guide to create a fully working Lenovo Ideapad 330s-14ikb Hackintosh
+Full guide to create a Lenovo Ideapad 330s-14ikb Hackintosh
 
 ### Feel free to help a broke student out at the bottom of the page. :)
 
@@ -21,7 +21,7 @@ Proceed at your own risk, I shall not take responsibility for any damages caused
 ## Issues
 - Sometimes sleep doesn't work while closing the lid. (Very Random)
 - Keyboard mute shortcut. (Displays muted but doesn't actually mute)
-- iMessage and Facetime. (Didn't bother as I don't use them)
+- iMessage and Facetime. (I tried, but didn't get it to work)
 - Trackpad gestures not quite working. Maybe I'll find a fix for that.
 - One ACPI Error while booting. Can be ignored. (Hoping someone can help me with this) | Disable verbose (-v) mode to just hide it...
 
@@ -118,6 +118,9 @@ Use Hackintool to fix hibernation and for USB port patching. (Guides in the fold
 - Thanks to [Sniki](https://www.tonymacx86.com/members/1501160/) for his V330 guide.
 
 ## Changelog:
+### 23/8/2019: Initial Release
+- Updated iMessage info.
+
 ### 22/8/2019: Initial Release
 - Guide is completed.
 - Files have been added.

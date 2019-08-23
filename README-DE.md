@@ -22,7 +22,7 @@ Ihr macht das auf eigene Gefahr, ich übernehme keine Verantwortung für Schäde
 ## Probleme
 - Manchmal funktioniert der Ruhezustand nicht richtig, wenn man den deckel zu macht (Extrem zufällig und unregelmäßig)
 - Tastatur Mute Shortcut (Zeigt zwar an, dass der ton aus ist, ist er aber nicht)
-- iMessage und Facetime (habe mich damit noch nicht beschäftigt)
+- iMessage und Facetime (Habe es bereits versucht, aber nicht zum laufen bekommen..)
 - Trackpad Gesten funktionieren (noch) nicht richtig. Vielleicht finde ich einen Fix dafür
 - Ein ACPI Error beim booten. Kann ignoriert werden. (Vielleicht kann den jemand fixen?) | Einfach ohne Verbose mode (-v) booten, dann sieht man es nicht.
 
