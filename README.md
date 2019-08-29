@@ -112,12 +112,18 @@ That's it! Ideally if you have the same config you should be done, but I would a
 ### Step 4:
 Use Hackintool to fix hibernation and for USB port patching. (Guides in the folder)
 
+## Updating macOS
+If Apple releases a new Mojave Update (they just did), like macOS 10.14.6 supplimental Update, then just go ahead and install it. After the update is done, the Trackpad might not work anymore. To fix that, just do Steps 2 & 3 of the post installation guide. After that reboot. It should work just fine now.
+
 ## Credits:
 - Thanks to [RehabMan](https://www.tonymacx86.com/members/429483/) for his guides.
 - Thanks to [muchmore](https://www.tonymacx86.com/members/698774/) for his battery patch and [Whab](https://www.tonymacx86.com/members/2096263/) for some suggestions in the 15IKB thread on tonymacx86.
 - Thanks to [Sniki](https://www.tonymacx86.com/members/1501160/) for his V330 guide.
 
 ## Changelog:
+### 29/08/2019: Update Info
+- Added informations about macOS Updates.
+
 ### 23/8/2019: Initial Release
 - Updated iMessage info.
 
