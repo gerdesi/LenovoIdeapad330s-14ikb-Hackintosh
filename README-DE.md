@@ -3,6 +3,8 @@ Ein vollständiger Guide zum aufsetzen eines Lenovo Ideapad 330s-14IKB Hackintos
 
 ### Unterstützt mich gerne mit einer kleinen Spende ganz unten. :)
 
+## WICHTIG: Bitte lest euch die Info über macOS Updates am ende der Seite durch!
+
 #### Der Guide ist verfügbar auf...
 
 [English](README.md) | [Deutsch](README-DE.md)
@@ -22,7 +24,7 @@ Ihr macht das auf eigene Gefahr, ich übernehme keine Verantwortung für Schäde
 ## Probleme
 - Manchmal funktioniert der Ruhezustand nicht richtig, wenn man den deckel zu macht (Extrem zufällig und unregelmäßig)
 - Tastatur Mute Shortcut (Zeigt zwar an, dass der ton aus ist, ist er aber nicht)
-- iMessage und Facetime (Habe es bereits versucht, aber nicht zum laufen bekommen..)
+- iMessage und Facetime (Funktioniert mittlerweile... Keine Ahnung warum...)
 - Trackpad Gesten funktionieren (noch) nicht richtig. Vielleicht finde ich einen Fix dafür
 - Ein ACPI Error beim booten. Kann ignoriert werden. (Vielleicht kann den jemand fixen?) | Einfach ohne Verbose mode (-v) booten, dann sieht man es nicht.
 
@@ -113,6 +115,13 @@ HackinTool verwenden um Hibernation zu fixen und USB Port patching durchzuführe
 
 ## macOS Updaten
 Falls Apple mal wieder ein neues Mojave Update veröffentlicht (was sie gerade gemacht haben), wie z.B. macOS 10.14.6 Supplimental Update, einfach installieren. Wenn das Update fertig ist, kann es sein, dass das Trackpad nicht mehr funktioniert. Falls das der Fall ist, einfach Schritt 2 und 3 der Post Installation durchführen. Nach einem Neustart sollte dann alles wieder funktionieren.
+
+## macOS Mojave Supplemental Update 2
+Dieses Update scheint das Trackpad inkompatibel zu machen. Ich habe das update getestet, aber es hat nicht mehr funktioniert, obwohl ich auch meine Update schritte durchgeführt habe.
+
+**Bitte Updatet macOS nicht auf diese Version bis ein Fix gefunden wurde!**
+
+Wenn ihr dennoch updaten wollt, macht bitte ein Time Machine Backup vor dem Update, um Datenverlust bzw. die Funktionalität nicht zu verlieren!
 
 ## Credits:
 - Danke an [RehabMan](https://www.tonymacx86.com/members/429483/) für seine Guides.

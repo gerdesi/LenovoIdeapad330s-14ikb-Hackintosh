@@ -3,6 +3,8 @@ Full guide to create a Lenovo Ideapad 330s-14ikb Hackintosh
 
 ### Feel free to help a broke student out at the bottom of the page. :)
 
+## IMPORTANT: Please read the information about MacOS Updates at the bottom of the page!
+
 #### Read this guide in...
 [English](README.md) | [Deutsch](README-DE.md)
 
@@ -21,7 +23,7 @@ Proceed at your own risk, I shall not take responsibility for any damages caused
 ## Issues
 - Sometimes sleep doesn't work while closing the lid. (Very Random)
 - Keyboard mute shortcut. (Displays muted but doesn't actually mute)
-- iMessage and Facetime. (I tried, but didn't get it to work)
+- iMessage and Facetime. (I tried, it failed, but for some reason it now works perfectly fine.)
 - Trackpad gestures not quite working. Maybe I'll find a fix for that.
 - One ACPI Error while booting. Can be ignored. (Hoping someone can help me with this) | Disable verbose (-v) mode to just hide it...
 
@@ -115,12 +117,22 @@ Use Hackintool to fix hibernation and for USB port patching. (Guides in the fold
 ## Updating macOS
 If Apple releases a new Mojave Update (they just did), like macOS 10.14.6 supplimental Update, then just go ahead and install it. After the update is done, the Trackpad might not work anymore. To fix that, just do Steps 2 & 3 of the post installation guide. After that reboot. It should work just fine now.
 
+## macOS Mojave supplemental Update 2
+This Update seems to break the Trackpad. I tried the update but it seemed like I couldn't get it to work, even after trying the steps I provided.
+
+**Please don't perform this update until a fix is found!** 
+
+If you still want to update, please do a Time Machine backup beforehand to protect agains data loss due to that missing functionality!
+
 ## Credits:
 - Thanks to [RehabMan](https://www.tonymacx86.com/members/429483/) for his guides.
 - Thanks to [muchmore](https://www.tonymacx86.com/members/698774/) for his battery patch and [Whab](https://www.tonymacx86.com/members/2096263/) for some suggestions in the 15IKB thread on tonymacx86.
 - Thanks to [Sniki](https://www.tonymacx86.com/members/1501160/) for his V330 guide.
 
 ## Changelog:
+### 09/10/2019: Supplemental Update 2
+- Added important Info about Mojave Supplemental Update 2 
+
 ### 29/08/2019: Update Info
 - Added informations about macOS Updates.
 
