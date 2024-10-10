@@ -1,7 +1,6 @@
 # Lenovo Ideapad 330s-14IKB Hackintosh
 Full guide to create a Lenovo Ideapad 330s-14ikb Hackintosh
 
-### Feel free to help a broke student out at the bottom of the page. :)
 
 ## IMPORTANT: Please read the information about MacOS Updates at the bottom of the page!
 
